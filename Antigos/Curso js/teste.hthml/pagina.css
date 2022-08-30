@@ -1,0 +1,95 @@
+
+
+
+
+orm.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 30px;
+}
+
+label {
+    padding-right: 50px;
+}
+
+progress {
+    padding-right: 1000px;
+    font-size: 1rem;
+    background-color: aqua;
+}
+
+section {
+background-color: coral;
+text-align: center;
+
+}
+
+
+
+
+
+fieldset:invalid~fieldset {
+    display: none;
+  }
+  
+  form:invalid button {
+    opacity: 0.3;
+    pointer-events: none;
+  }
+  
+  input, textarea {
+    box-sizing: border-box;
+    width: 100%;
+    font-family:monospace;
+    padding: 0.25em 0.5em;
+  }
+  
+  button {
+    width: 100%;
+    border: thin solid darkgrey;
+    font-size: 1.25em;
+    background-color: darkgrey;
+    color: white;
+  }
+
+  details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+
+html {
+  font-family: sans-serif;
+}
+canvas {
+  background: #fff;
+  border: 1px dashed;
+}
+a {
+  display: inline-block;
+  background: #69c;
+  color: #fff;
+  padding: 5px 10px;
+}
